@@ -91,4 +91,6 @@ class Tracker {
   }
 }
 
-const tracker = new Tracker(true);
+const tracker = new Tracker();
+// with spa
+// const tracker = new Tracker(true);
