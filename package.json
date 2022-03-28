@@ -1,0 +1,22 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "ajv-formats": "^2.1.1",
+    "koa": "^2.13.4",
+    "koa-body-parser": "^1.1.2",
+    "mongodb": "^4.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.1"
+  }
+}
